@@ -7,6 +7,7 @@ const Button = (props) => {
  
 const element = (
   //  Write your code here.
+  <div>
   <div className="bg">
     <h1>Social Button</h1>
     <div className="xx">
@@ -14,6 +15,7 @@ const element = (
       <Button className="y"  text="Share" />
       <Button className="z"  text="Comment" />
     </div>
+  </div>
   </div>
 );
 
